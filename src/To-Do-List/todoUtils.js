@@ -15,7 +15,7 @@ export function addGoals(toDo, setToDo, setWorkList, editId, setEditId) {
       ...prev,
       {
         id: uuidv4(),
-        task: toDo.trim(),
+        task: toDo.trim().toUpperCase(),
         completed: false,
       },
     ]);
