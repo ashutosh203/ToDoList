@@ -24,7 +24,7 @@ export function CompletedWorkList() {
             transition-all duration-300
           "
           >
-            <label className="flex items-center gap-3 cursor-pointer flex-1">
+            <label className="flex items-center gap-3 cursor-pointer flex-1 min-w-0">
               <input
                 type="text"
                 className="
@@ -36,7 +36,7 @@ export function CompletedWorkList() {
                 disabled={true}
               />
 
-              <span className="text-white text-lg">{items.task}</span>
+              <span className="text-white text-lg break-all" >{items.task}</span>
             </label>
 
             <div>

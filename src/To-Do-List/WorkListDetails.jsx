@@ -25,7 +25,7 @@ function WorkListDetails() {
           "
         >
           {/* Checkbox + Task */}
-          <label className="flex items-center gap-3 cursor-pointer flex-1">
+          <label className="flex items-center gap-3 cursor-pointer flex-1 min-w-0">
             <input
               type="checkbox"
               className="
@@ -37,7 +37,7 @@ function WorkListDetails() {
               onChange={()=>completeTask(e.id , setWorkList , setCompleted ,workList)}
             />
 
-            <span className="text-white text-lg">{e.task}</span>
+            <span className="text-white text-lg break-all">{e.task}</span>
           </label>
 
           {/* Action Buttons */}
