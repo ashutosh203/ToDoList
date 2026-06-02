@@ -16,11 +16,11 @@ Error generating stack: `+e.message+`
             hover:shadow-lg\r
             hover:shadow-cyan-500/10\r
             transition-all duration-300\r
-          `,children:[(0,g.jsxs)(`label`,{className:`flex items-center gap-3 cursor-pointer flex-1`,children:[(0,g.jsx)(`input`,{type:`text`,className:`\r
+          `,children:[(0,g.jsxs)(`label`,{className:`flex items-center gap-3 cursor-pointer flex-1 min-w-0`,children:[(0,g.jsx)(`input`,{type:`text`,className:`\r
                 w-5 h-5\r
                 accent-cyan-500\r
                 cursor-pointer\r
-              `,checked:e.completed,disabled:!0}),(0,g.jsx)(`span`,{className:`text-white text-lg`,children:e.task})]}),(0,g.jsx)(`div`,{children:(0,g.jsx)(`button`,{className:`\r
+              `,checked:e.completed,disabled:!0}),(0,g.jsx)(`span`,{className:`text-white text-lg break-all`,children:e.task})]}),(0,g.jsx)(`div`,{children:(0,g.jsx)(`button`,{className:`\r
                 p-2 rounded-lg\r
                 bg-red-500/20\r
                 text-red-400\r
@@ -38,11 +38,11 @@ Error generating stack: `+e.message+`
             hover:shadow-lg\r
             hover:shadow-cyan-500/10\r
             transition-all duration-300\r
-          `,children:[(0,g.jsxs)(`label`,{className:`flex items-center gap-3 cursor-pointer flex-1`,children:[(0,g.jsx)(`input`,{type:`checkbox`,className:`\r
+          `,children:[(0,g.jsxs)(`label`,{className:`flex items-center gap-3 cursor-pointer flex-1 min-w-0`,children:[(0,g.jsx)(`input`,{type:`checkbox`,className:`\r
                 w-5 h-5\r
                 accent-cyan-500\r
                 cursor-pointer\r
-              `,checked:e.completed,onChange:()=>fe(e.id,i,n,r)}),(0,g.jsx)(`span`,{className:`text-white text-lg`,children:e.task})]}),(0,g.jsxs)(`div`,{className:`flex items-center gap-2`,children:[(0,g.jsx)(`button`,{className:`\r
+              `,checked:e.completed,onChange:()=>fe(e.id,i,n,r)}),(0,g.jsx)(`span`,{className:`text-white text-lg break-all`,children:e.task})]}),(0,g.jsxs)(`div`,{className:`flex items-center gap-2`,children:[(0,g.jsx)(`button`,{className:`\r
                 p-2 rounded-lg\r
                 bg-blue-500/20\r
                 text-blue-400\r
